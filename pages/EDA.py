@@ -71,4 +71,5 @@ for feature in name_of_features:
 img = plt.figure(figsize=(25,20))
 sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f", square=True)
 plt.title("Correlation Matrix (Numerical Features)")
+st.write("Correlation Matrix of Data is given as")
 st.pyplot(img)
