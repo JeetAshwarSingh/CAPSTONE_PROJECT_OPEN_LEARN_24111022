@@ -1,0 +1,19 @@
+REPORT 
+
+Hello everyone, This project contains EDA, two models of supervised learning of classification (one is Logistic Regression and the other is XGBOOST Classifier), and two models of supervised learning of regression(one is Linear Regression and the other is XGBOOST Regressor) and one unsupervised learning, along with a fully functioning deployed on Streamlit. Below all of these are explained :
+
+Regression task :
+
+Two models are used for regression, linear and XGB, as the data is not good for fitting on a regressor so the results of predictions were not satisfactory. Still both models are fitted to perform their best by cleaning the data and hypertuning the parameters
+
+Classification Task
+
+Like the regression task i used two models to evaluate and come up with a better model for classification. The two models that i used were Logistic Regression and the other is XGBOOST Classifier where XGBOOST outperformed logistic Regression with accuracy score of 91%.
+
+unsupervised learning task:
+
+K-means algorithm is fitted on a clean dataset and output were plotted on a graph on streamlit app
+
+Streamlit app:
+
+The app is deployed on internet hosted by using  Streamlit web-cloud .App contains multiple pages in which all the outputs insights are shared along with demo opf the model
